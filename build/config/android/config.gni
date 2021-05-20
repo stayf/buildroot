@@ -93,7 +93,7 @@ if (is_android) {
   # Subdirectories inside android_ndk_root that contain the sysroot for the
   # associated platform.
   if (current_cpu == "x64" || current_cpu == "arm64") {
-    android_api_level = 22
+    android_api_level = 24
   } else {
     android_api_level = 16
   }
