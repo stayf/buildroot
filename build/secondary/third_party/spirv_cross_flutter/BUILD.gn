@@ -38,4 +38,8 @@ source_set("spirv_cross_flutter") {
     "$source_root/spirv_reflect.cpp",
     "$source_root/spirv_reflect.hpp",
   ]
+
+  cflags_cc = [
+    "-Wno-deprecated-declarations"
+  ]
 }
